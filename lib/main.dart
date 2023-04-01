@@ -18,12 +18,13 @@ void main() {
 class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var letDiceNumber = 5;
     return Center(
       child: Row(
         children: [
           Expanded(
             child: TextButton(
-              child: Image.asset('images/dice1.png'),
+              child: Image.asset('images/dice$letDiceNumber.png'),
               onPressed: () {
                 print("left button clicked");
               },

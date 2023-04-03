@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'dart:math';
 void main() {
   return runApp(
     MaterialApp(
@@ -34,7 +34,7 @@ class _DicePageState extends State<DicePage> {
 
               onPressed: () {
                 this.setState(() {
-                  letDiceNumber = 3;
+                  letDiceNumber = Random().nextInt(6)+1;
                   print('left dice new value $letDiceNumber');
                 });
               },

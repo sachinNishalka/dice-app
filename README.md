@@ -1,16 +1,11 @@
-# diceapp
+# Dice App
 
-A new Flutter project.
+A flutter application that uses stateful widgets with dart functions
 
-## Getting Started
+## Preview
 
-This project is a starting point for a Flutter application.
+![8BTQWrSOdR](https://user-images.githubusercontent.com/72740598/229489034-359672ad-9f4d-4e30-8a1e-1676708b57e4.gif)
 
-A few resources to get you started if this is your first Flutter project:
+### Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can use this repo to download and test the project withing android studio.
